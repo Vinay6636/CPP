@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main(){
+    int n;
+    cin>>n;
+    int i=2;
+    while(i*i<=n){
+        if(n%i==0){
+            cout<<"Not Prime"<<endl;
+        }
+        else{
+            cout<<"Prime for  "<<i<<endl;
+        }
+        i++;
+    }
+    return 0;
+} 
