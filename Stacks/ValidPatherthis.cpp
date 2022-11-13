@@ -42,7 +42,7 @@ stack<char> s;
         return true;
     else
         return false;
-
+}
 int main(){
     
     return 0;
